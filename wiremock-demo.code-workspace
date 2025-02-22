@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "bc-client",
+			"name": "BC client"
+		},
+		{
+			"path": "wiremock",
+			"name": "WireMock"
+		},
+		{
+			"path": ".devcontainer",
+			"name": "devcontainer config"
+		}
+	],
+	"settings": {}
+}
