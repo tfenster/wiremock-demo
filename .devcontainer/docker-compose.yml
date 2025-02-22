@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/dotnet:1-9.0-bookworm
+    volumes:
+      - ../../bc-client:/workspaces:cached
+    network_mode: service:wiremock
+    command: sleep infinity
+
+  wiremock:
+    image: wiremock/wiremock:latest
+    restart: unless-stopped
+    volumes:
+      - ../../bc-client/wiremock/extensions:/var/wiremock/extensions
+      - ../../bc-client/wiremock/__files:/home/wiremock/__files
+      - ../../bc-client/wiremock/mappings:/home/wiremock/mappings
+    entrypoint: [ "/docker-entrypoint.sh", "--global-response-templating", "--disable-gzip", "--verbose" ]
+    ports:
+      - "8080:8080"
