@@ -4,7 +4,7 @@ using Xunit;
 
 namespace bc_client.Tests;
 
-public class BCUnitTests
+public class BCClientTests
 {
     private readonly string _companyName = "CRONUS AG";
     private readonly string _companyId = "9ee48135-93e1-ef11-9344-6045bde9ca09";
