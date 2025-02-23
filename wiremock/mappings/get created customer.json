@@ -1,0 +1,29 @@
+{
+  "id": "769234c4-dc04-413a-8c4e-5d26d837c9e5",
+  "name": "companies9ee48135-93e1-ef11-9344-6045bde9ca09_customersb37406e8-eaf1-ef11-9b20-d99fd2b71a0f",
+  "request": {
+    "url": "/companies(9ee48135-93e1-ef11-9344-6045bde9ca09)/customers(b37406e8-eaf1-ef11-9b20-d99fd2b71a0f)",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "get created customer.json",
+    "headers": {
+      "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+      "Access-Control-Expose-Headers": "Date, Content-Length, Server, OData-Version",
+      "Cache-Control": "no-cache, no-store",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "OData-Version": "4.0",
+      "request-id": "3d7b4925-bdd8-449d-b95f-ddb9375026a6",
+      "urls-rewritten-to-public": "false",
+      "Date": "Sun, 23 Feb 2025 13:34:35 GMT",
+      "Content-Type": "application/json; odata.metadata=minimal; odata.streaming=true"
+    }
+  },
+  "uuid": "769234c4-dc04-413a-8c4e-5d26d837c9e5",
+  "persistent": true,
+  "scenarioName": "CRUD customer",
+  "requiredScenarioState": "CRUD customer - created",
+  "insertionIndex": 58
+}

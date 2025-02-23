@@ -1,0 +1,28 @@
+GET http://localhost:8080/some/thing
+
+###
+POST http://localhost:8080/__admin/mappings/reset
+
+###
+POST http://localhost:8080/__admin/scenarios/reset
+
+###
+GET http://localhost:8080/__admin/scenarios
+
+###
+POST http://localhost:8080/__admin/recordings/start
+Content-Type: application/json
+
+{
+  "targetBaseUrl" : "https://fps-alpaca.westeurope.cloudapp.azure.com/f053da92c4a7rest/api/v2.0/",
+  "extractBodyCriteria" : {
+    "textSizeThreshold" : "1",
+    "binarySizeThreshold" : "1"
+  },
+  "captureHeaders" : {
+    "If-Match" : {}
+  }
+}
+
+###
+POST http://localhost:8080/__admin/recordings/stop

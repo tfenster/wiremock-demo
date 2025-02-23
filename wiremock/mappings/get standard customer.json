@@ -1,0 +1,27 @@
+{
+  "id": "9508b90b-a33d-4c37-b764-0b5e46df1e06",
+  "name": "companies9ee48135-93e1-ef11-9344-6045bde9ca09_customers37fe3458-93e1-ef11-9344-6045bde9ca09",
+  "request": {
+    "url": "/companies(9ee48135-93e1-ef11-9344-6045bde9ca09)/customers(37fe3458-93e1-ef11-9344-6045bde9ca09)",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "get standard customer.json",
+    "headers": {
+      "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+      "Access-Control-Expose-Headers": "Date, Content-Length, Server, OData-Version",
+      "Cache-Control": "no-cache, no-store",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "OData-Version": "4.0",
+      "request-id": "7e70c6fc-7d44-40d4-969d-aee1c7951551",
+      "urls-rewritten-to-public": "false",
+      "Date": "Sun, 23 Feb 2025 13:58:55 GMT",
+      "Content-Type": "application/json; odata.metadata=minimal; odata.streaming=true"
+    }
+  },
+  "uuid": "9508b90b-a33d-4c37-b764-0b5e46df1e06",
+  "persistent": true,
+  "insertionIndex": 113
+}

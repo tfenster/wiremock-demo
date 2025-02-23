@@ -1,0 +1,37 @@
+{
+  "id": "ea889b9c-7d7e-47a1-9f19-9b1734127fb6",
+  "name": "companies9ee48135-93e1-ef11-9344-6045bde9ca09_customers",
+  "request": {
+    "url": "/companies(9ee48135-93e1-ef11-9344-6045bde9ca09)/customers",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n    \"displayName\": \"Ulm Falcons\",\n    \"type\": \"Company\"\n}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "create customer.json",
+    "headers": {
+      "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+      "Access-Control-Expose-Headers": "Date, Content-Length, Server, OData-Version",
+      "Cache-Control": "no-cache, no-store",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "OData-Version": "4.0",
+      "request-id": "77970129-8edf-45ae-8e34-7117b5f28e40",
+      "urls-rewritten-to-public": "false",
+      "Date": "Sun, 23 Feb 2025 13:34:29 GMT",
+      "Location": "https://fps-alpaca.westeurope.cloudapp.azure.com/BC/api/v2.0/companies(9ee48135-93e1-ef11-9344-6045bde9ca09)/customers(b37406e8-eaf1-ef11-9b20-d99fd2b71a0f)",
+      "Content-Type": "application/json; odata.metadata=minimal; odata.streaming=true"
+    }
+  },
+  "uuid": "ea889b9c-7d7e-47a1-9f19-9b1734127fb6",
+  "persistent": true,
+  "scenarioName": "CRUD customer",
+  "newScenarioState": "CRUD customer - created",
+  "insertionIndex": 59
+}

@@ -1,0 +1,27 @@
+{
+  "id": "1a0d1352-65a5-4243-95d7-a7ddffd63e6b",
+  "name": "companies9ee48135-93e1-ef11-9344-6045bde9ca09_customers",
+  "request": {
+    "url": "/companies(9ee48135-93e1-ef11-9344-6045bde9ca09)/customers",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "get all customers.json",
+    "headers": {
+      "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+      "Access-Control-Expose-Headers": "Date, Content-Length, Server, OData-Version",
+      "Cache-Control": "no-cache, no-store",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "OData-Version": "4.0",
+      "request-id": "c150e2eb-cf35-4a10-854e-de3a1212dfbf",
+      "urls-rewritten-to-public": "false",
+      "Date": "Sun, 23 Feb 2025 13:34:15 GMT",
+      "Content-Type": "application/json; odata.metadata=minimal; odata.streaming=true"
+    }
+  },
+  "uuid": "1a0d1352-65a5-4243-95d7-a7ddffd63e6b",
+  "persistent": true,
+  "insertionIndex": 61
+}

@@ -1,0 +1,29 @@
+{
+  "id": "d4ab67e1-f404-4da9-87b5-e99493c8fe71",
+  "name": "companies9ee48135-93e1-ef11-9344-6045bde9ca09_customersb37406e8-eaf1-ef11-9b20-d99fd2b71a0f",
+  "request": {
+    "url": "/companies(9ee48135-93e1-ef11-9344-6045bde9ca09)/customers(b37406e8-eaf1-ef11-9b20-d99fd2b71a0f)",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "get updated customer.json",
+    "headers": {
+      "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+      "Access-Control-Expose-Headers": "Date, Content-Length, Server, OData-Version",
+      "Cache-Control": "no-cache, no-store",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "OData-Version": "4.0",
+      "request-id": "f077879d-7755-46ae-ac1b-bca7713c0587",
+      "urls-rewritten-to-public": "false",
+      "Date": "Sun, 23 Feb 2025 13:34:41 GMT",
+      "Content-Type": "application/json; odata.metadata=minimal; odata.streaming=true"
+    }
+  },
+  "uuid": "d4ab67e1-f404-4da9-87b5-e99493c8fe71",
+  "persistent": true,
+  "scenarioName": "CRUD customer",
+  "requiredScenarioState": "CRUD customer - updated",
+  "insertionIndex": 56
+}

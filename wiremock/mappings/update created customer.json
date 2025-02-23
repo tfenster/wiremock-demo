@@ -1,0 +1,41 @@
+{
+  "id": "4af49b78-0200-4d24-9f43-e6345aade162",
+  "name": "companies9ee48135-93e1-ef11-9344-6045bde9ca09_customersb37406e8-eaf1-ef11-9b20-d99fd2b71a0f",
+  "request": {
+    "url": "/companies(9ee48135-93e1-ef11-9344-6045bde9ca09)/customers(b37406e8-eaf1-ef11-9b20-d99fd2b71a0f)",
+    "method": "PATCH",
+    "headers": {
+      "If-Match": {
+        "equalTo": "W/\"JzE4Ozg5MDM2MzYwNDgyMzQ1NjE0MjE7MDA7Jw==\""
+      }
+    },
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n    \"displayName\": \"TSG Söflingen\",\n    \"type\": \"Company\"\n}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "update created customer.json",
+    "headers": {
+      "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+      "Access-Control-Expose-Headers": "Date, Content-Length, Server, OData-Version",
+      "Cache-Control": "no-cache, no-store",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "request-id": "d6b2a72e-eded-4ac6-9a91-05f8c0191b0b",
+      "urls-rewritten-to-public": "false",
+      "Date": "Sun, 23 Feb 2025 13:34:38 GMT",
+      "Content-Type": "application/json"
+    }
+  },
+  "uuid": "4af49b78-0200-4d24-9f43-e6345aade162",
+  "persistent": true,
+  "scenarioName": "CRUD customer",
+  "requiredScenarioState": "CRUD customer - created",
+  "newScenarioState": "CRUD customer - updated",
+  "insertionIndex": 57
+}

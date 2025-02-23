@@ -1,0 +1,29 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/companies"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "@odata.context": "https://fps-alpaca.westeurope.cloudapp.azure.com/BC/api/v2.0/$metadata#companies",
+            "value": [
+                {
+                    "id": "9ee48135-93e1-ef11-9344-6045bde9ca09",
+                    "systemVersion": "25.4.29661.29727",
+                    "timestamp": 47433,
+                    "name": "CRONUS AG",
+                    "displayName": "",
+                    "businessProfileId": "",
+                    "systemCreatedAt": "2025-02-02T18:26:25.61Z",
+                    "systemCreatedBy": "00000000-0000-0000-0000-000000000001",
+                    "systemModifiedAt": "2025-02-02T18:26:25.61Z",
+                    "systemModifiedBy": "00000000-0000-0000-0000-000000000001"
+                }
+            ]
+        }
+    }
+}
