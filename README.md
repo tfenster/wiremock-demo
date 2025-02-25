@@ -1,0 +1,1 @@
+This is a demo repository that shows how you can use [WireMock](https://wiremock.org) to mock a complex API, in this case MS Dynamics 365 Business Central. [This blog post](https://tobiasfenster.io/using-wiremock-to-mock-business-central) explains more.
